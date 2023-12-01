@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Reviews</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <header>
+        <h1>Restaurant Reviews</h1>
+    </header>
+    <main>
+        <div class="review-form">
+            <h2>Write a Review</h2>
+            <form id="reviewForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="rating">Rating:</label>
+                <input type="number" id="rating" name="rating" min="1" max="5" required>
+                <label for="comment">Your Review:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="reviews">
+            <!-- Display submitted reviews here -->
+        </div>
+    </main>
+    <script src="feed.js"></script>
+</body>
+</html>

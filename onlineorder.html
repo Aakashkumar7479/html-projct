@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ONLINE ORDERING</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+</style>
+</style>
+<body>
+    <h1>ONLINE FOOD ORDERING</h1>
+    
+    <form id="order-form">
+        <label for="item">Select an item:</label>
+        <select id="item">
+            <option value="    "></option>
+            <option value="BUTTER PANEER">BUTTER PANEER</option>
+            <option value="BUTTER Chicken">butter Chicken</option>
+            <option value="BUTTER NAAN">BUTTER NAAM</option>
+            <option value="MIX VEG">MIX VEG</option>
+            <option value="FRIED RICE">FRIED RICE</option>
+            <option value="CKICKEN KORMA">CKICKEN KORMA</option>
+            <option value="VEG BIRYANI">VEG BIRYANI</option>
+        </select>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" value="  ">
+
+        <button id="add-to-cart">Add to Cart</button>
+    </form>
+
+    <div id="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items">
+        </ul>
+        <button id="checkout">Checkout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
