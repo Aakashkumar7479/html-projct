@@ -1,0 +1,153 @@
+# html-projct
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Home Page</title>
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-size:cover; 
+            font-family: Arial, sans-serif;
+            background-color: #010101;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+    background-image: url('https://www.thespruce.com/thmb/hu4RYqiIJSYKuUtLB7ke_ldKAv0=/2048x0/filters:no_upscale():max_bytes(150000):strip_icc()/dining-room-lighting-4157465-hero-28e9226fa7fb4f7e9f86a062ff22111c.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    height: 20vh;
+    position: relative;
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+}
+
+.header h1 {
+    font-size: 60px;
+    font-family: 'Arial', sans-serif; /* You can change the font-family */
+}
+
+.header p {
+    font-size: 18px;
+    color: #290895;
+}
+
+.animated-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #290895;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: transform 0.2s;
+}
+
+.animated-button:hover {
+    transform: scale(1.1);
+}
+
+
+
+        h1 {
+            font-size: 72px;
+        }
+
+        h4 {
+            font-size: 24px;
+            color: #290895;
+        }
+
+        .navbar {
+            
+            color: white;
+            text-align: center;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            margin: 10px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: justify;
+        }
+
+        /* Additional Styles */
+        .icon {
+            font-size: 24px;
+            margin-right: 5px;
+        }
+
+        /* Add animations as needed */
+        .animated-button {
+            transition: transform 0.2s;
+        }
+
+        .animated-button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>CAUSAL DINING SPOT</h1>
+
+    </div>
+
+    <div class="navbar">
+        <!-- <a href="home"><i class="icon">🏠</i>HOME</a> -->
+        <a href="reservation.html"><i class="icon">🍽️</i>RESERVATION</a>
+        <a href="onlineorder.html"><i class="icon">🍔</i>ORDER ONLINE</a>
+        <a href="menu.html"><i class="icon">🍴</i>MENU</a>
+        <a href="nav.html"><i class="icon">🚚</i>TRACK ORDER</a>
+        <a href="feedback.html"><i class="icon">ℹ️</i>FEED-BACK</a>
+        <a href="about.html"><i class="icon">🏆</i>ABOUT</a>
+        
+        
+    </div>
+
+    <div class="image-container">
+        <a href="https://example.com">
+        <img src="https://media.istockphoto.com/id/1194374838/vector/delivery-global-tracking-system-service-online-isometric-design-with-markers-cargo-boxes-on.jpg?s=612x612&w=is&k=20&c=Y7LXZJ6AidTm87f_qQvuirz7Fh0TQq3e_KY_a4JUiTQ=" width="1500px"  alt="">
+        <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/201903/online-food-ordering-_660_032619035330.jpg" width="1500px" alt="">
+        <img src="https://i.scdn.co/image/ab67616d0000b273f30bb40e6b474950e2cc2a53" width="1500px"  alt="">
+        <img src="https://www.upwork.com/catalog-images-resized/c267951776223a72cd4788bbe57f8864/large@2x" width="1500px"  alt="">
+        <img src="https://w7.pngwing.com/pngs/532/896/png-transparent-food-gift-baskets-holiday-christmas-gift-gift-miscellaneous-food-text.png" width="1500px"  alt="">
+        </a>
+    </div>
+
+    <div class="content">
+
+</body>
+</html>
